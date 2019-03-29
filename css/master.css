@@ -1,0 +1,23 @@
+#output {
+  display: none;
+}
+
+.error {
+  color: #bb0000;
+}
+
+#outputErrorOne {
+  display: none;
+}
+
+#outputErrorNeg {
+  display: none;
+}
+
+#outputErrorZero {
+  display: none;
+}
+
+#outputErrorNaN {
+  display: none;
+}

@@ -18,7 +18,6 @@ var countUp = function(countTo, countBy) {
   else if ((Number.isNaN(countTo)) || (Number.isNaN(countBy))) {
     $("#outputErrorNaN").show();
   }
-  else if ()
 
 };
 
@@ -34,8 +33,10 @@ var countUp = function(countTo, countBy) {
 $(document).ready(function(){
   $("#formOne").submit(function(event){
     event.preventDefault();
+    $("#output").empty();
     var countTo = parseInt($("#countTo").val());
     var countBy = parseInt($("#countBy").val());
+    countUp(countTo, countBy);
 
 
   })

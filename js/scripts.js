@@ -34,10 +34,11 @@ $(document).ready(function(){
   $("#formOne").submit(function(event){
     event.preventDefault();
     $("#output").empty();
+    $(".error").hide();
     var countTo = parseInt($("#countTo").val());
     var countBy = parseInt($("#countBy").val());
     countUp(countTo, countBy);
-
+    $("#output").show();
 
   })
 

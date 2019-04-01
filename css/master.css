@@ -1,3 +1,14 @@
+#formBox {
+  max-width: 500px;
+  margin: 12px;
+  padding: 8px;
+  border-width: 12px;
+}
+
+p {
+  font-family: sans-serif;
+}
+
 #output {
   display: none;
 }
